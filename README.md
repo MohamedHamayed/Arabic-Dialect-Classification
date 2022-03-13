@@ -51,9 +51,9 @@ from each other, others, particularly those in close in geographic proximity, ma
 pip install -r requirements.txt
 ```
 
-2. Download files needed from these links: -<a href="https://drive.google.com/file/d/1dvtXwdMghOQNC0lP_qPT4OXZz_XN3ebC/view">TF-IDF</a>
--<a href="https://drive.google.com/file/d/1qoiulklaR5co2z3YiG4ZuibhtRIQ5UvZ/view">SVM-Model</a>
--<a href="https://drive.google.com/file/d/1yOaqkUGAamXc15xy3oW16_aQijEBRZ5_/view">Finetuned-Transformer-Weights</a>
+2. Download files needed from these links: <a href="https://drive.google.com/file/d/1dvtXwdMghOQNC0lP_qPT4OXZz_XN3ebC/view">TF-IDF</a> / 
+<a href="https://drive.google.com/file/d/1qoiulklaR5co2z3YiG4ZuibhtRIQ5UvZ/view">SVM-Model</a> / 
+<a href="https://drive.google.com/file/d/1yOaqkUGAamXc15xy3oW16_aQijEBRZ5_/view">Finetuned-Transformer-Weights</a>
 
 3. Clone the Arabert repo:
 ```python
