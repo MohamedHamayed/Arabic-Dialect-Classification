@@ -39,7 +39,7 @@ git clone https://github.com/aub-mind/arabert.git
 4. Run the server:
 
 ```python
-python App_FastAPI.py -t [Tfidf Path] -ml [SVM Model Path] -dl [Transformer weights Path]
+python App_FastAPI.py -t [Tfidf Path] -ml [SVM Model Path] -dl [Transformer Weights Path]
 ```
 
 5. Navigate to your local host `http://localhost:8000/docs`
