@@ -17,6 +17,31 @@ from each other, others, particularly those in close in geographic proximity, ma
 <h1 color="green"><b>Training Dataset</b></h1>
 <p>QADI dataset was used for this specific task. In this <a href="https://arxiv.org/pdf/2005.06557.pdf">paper</a>, the researcher has automatically collected a dataset of tweets belonging to a wide range of country-level Arabic dialects covering 18 different countries in the Middle East and North Africa region. Building this dataset relied on applying multiple filters to identify users who belong to different countries based on their account descriptions and to eliminate tweets that are either written in Modern Standard Arabic or contain inappropriate language. Using intrinsic evaluation, the labels of a set of randomly selected tweets were 91.5% accurate.</p>
 
+<h1 color="green"><b>Results</b></h1>
+<table style="width:100%">
+  <tr>
+    <th>Model</th>
+    <th>Accuracy</th>
+  </tr>
+  
+ <tr>
+    <td>TF-IDF + Linear SVM</td> <td>56.1%</td>
+  </tr>
+ 
+ <tr>
+    <td>Keras Embedding Layer + LSTM</td> <td>52.1%</td>
+  </tr>
+ 
+ <tr>
+    <td>Arabert Transformer Embedding + LSTM</td> <td>52.5%</td>
+  </tr>
+ 
+ <tr>
+    <td>Fine-tuning Arabert Transformer</td> <td>60.5%</td>
+  </tr>
+</table>
+
+
 <h1 color="green"><b>Application</b></h1>
 <p>The SVM model and Fine-tuned Transformer were the models used to build an API using a new easy web framework which is FastAPI. In order to try out the application, please follow the following instructions:</p>
 
