@@ -48,3 +48,7 @@ python App_FastAPI.py -t [Tfidf Path] -ml [SVM Model Path] -dl [Transformer Weig
 
 
 <h1 color="green"><b>Demo</b></h1>
+<img src="images/1.PNG" alt="Simply Easy Learning" >
+<img src="images/2.PNG" alt="Simply Easy Learning" >
+<img src="images/3.PNG" alt="Simply Easy Learning" >
+<img src="images/4.PNG" alt="Simply Easy Learning" >
