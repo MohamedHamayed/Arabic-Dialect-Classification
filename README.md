@@ -3,7 +3,7 @@
 </center>
 
 <h1 color="green"><b>Abstract</b></h1>
-<p>. Though Arabic is the lingua franca of most of the MENA region, different dialects of Arabic are used in different countries. While some dialects may differ significantly
+<p>Though Arabic is the lingua franca of most of the MENA region, different dialects of Arabic are used in different countries. While some dialects may differ significantly
 from each other, others, particularly those in close in geographic proximity, may be more difficult to tweak apart. Automatically distinguishing between the different dialectal variations is valuable for many downstream applications such as machine translations, POS tagging, geo-locating users, and author profiling.</p>
 
 <h1 color="green"><b>Tried Methods</b></h1>
