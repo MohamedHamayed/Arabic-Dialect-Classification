@@ -21,7 +21,7 @@ Out of all these ten sources, only two were chosen to be used due to limited res
 </p>
 
 <h1 color="green"><b>Application</b></h1>
-<p>The Transformer was the model used to build an API using a new easy web framework which is FastAPI. In order to try out the application, please follow the following instructions:</p>
+<p>The SVM model and Fine-tuned Transformer were the models used to build an API using a new easy web framework which is FastAPI. In order to try out the application, please follow the following instructions:</p>
 
 1. Install all Python libraries that the notebooks depend on:
 
@@ -39,12 +39,12 @@ git clone https://github.com/aub-mind/arabert.git
 4. Run the server:
 
 ```python
-uvicorn transformer_fastapi:app --reload
+python App_FastAPI.py -t [Tfidf Path] -ml [SVM Model Path] -dl [Transformer weights Path]
 ```
 
 5. Navigate to your local host `http://localhost:8000/docs`
 
-6. Assign the prefix text and the number of words to be predicted
+6. Assign the text that needs to be classified
 
 
 <h1 color="green"><b>Demo</b></h1>
