@@ -15,10 +15,7 @@
 </ol>
 
 <h1 color="green"><b>Training Dataset</b></h1>
-<p>1.5 billion words Arabic Corpus dataset was used for this specific task. In this <a href="https://arxiv.org/ftp/arxiv/papers/1611/1611.04033.pdf">paper</a>, the researcher has chosen ten sources to be used in the corpus. Several news websites were tested before selecting the source that will be used. The fame of the website, and the news source, or the number of readers were not the criterion for selection. There were other criteria and technical reasons for selecting the news resources used in building the corpus.
-
-Out of all these ten sources, only two were chosen to be used due to limited resources. Almasralyoum which was used to train all our models and youm7 which was only used in fine tuning the transformer along with Almasralyoum.
-</p>
+<p>QADI dataset was used for this specific task. In this <a href="https://arxiv.org/pdf/2005.06557.pdf">paper</a>, the researcher has automatically collected a dataset of tweets belonging to a wide range of country-level Arabic dialects covering 18 different countries in the Middle East and North Africa region. Building this dataset relied on applying multiple filters to identify users who belong to different countries based on their account descriptions and to eliminate tweets that are either written in Modern Standard Arabic or contain inappropriate language. Using intrinsic evaluation, the labels of a set of randomly selected tweets were 91.5% accurate.</p>
 
 <h1 color="green"><b>Application</b></h1>
 <p>The SVM model and Fine-tuned Transformer were the models used to build an API using a new easy web framework which is FastAPI. In order to try out the application, please follow the following instructions:</p>
